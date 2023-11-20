@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "daFonts";
+    src: url(fonts/*.ttf);
+}
+
+title {
+    display: none;
+    font-family: none;
+}
+
+html {
+    font-family: 'roboto'sans-serif;
+    line-height: 1.15; 
+}
+
+body {
+    color:#777;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(248, 244, 244);
+    padding: 10px;
+}
+
+#mobile-nav-toggle {
+    position: fixed;
+    right: 12px;
+    top: 30px;
+    font-size: 20px;
+    cursor:pointer;
+    background: none;
+    z-index: 997;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.lnr {
+    font-family: 'roboto' sans-serif;
+    line-height: 1;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#header {
+    width: 99.3%;
+    background-color: #0f9fb9;
+    position: fixed;
+    left: 5px;
+    top: 4px;
+    right: 5px;
+    border-radius: 5px;
+    transition: all 0.4s;
+   /* z-index: 997;*/
+}
+
+.main-menu{
+    padding-bottom: 20px;
+    padding-top: -6.5px;
+    
+}
+
+@media (max-width:768px) 
+#header #logo img {
+    max-height: 40px;
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
