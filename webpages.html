@@ -33,6 +33,7 @@
         </header>
         <div id="page" class="container page header-main header-right content-top footer-none">
           <div id="page-wrapper">
+            <!--header regions beg-->
             <header id="header" class="clearfix" role="banner">
               <div id="header-container">
                 <div id="header-panels" class="at-panel gpanel panel-display three-col clearfix">
@@ -57,7 +58,31 @@
                   <div class="region region-header-third">
                     <div class="region-inner clearfix">
                       <div id="block-boxes-solr-search-box" class="block block-boxes block-boxes-os_search_solr_search_box no-title block-os-search-solr" module="boxes" delta="solr_search_box">
-                        
+                        <div class="block-inner clearfix">
+                          <div class="block-content content" ng-non-bindable>
+                            <div id="boxes-box-solr_search_box" class="boxes-box">
+                              <div class="boxes-box">
+                                <div class="boxes-box-content">
+                                  <form class="search-block-form" action="/lingayas/home" method="post" id="search-block-form" accept-charset="UTF-8">
+                                    <div>
+                                      <div class="container-inline">
+                                        <div class="form-item form-type-textfield form-item-search-block-form">
+                                          <label class="element-invisible" for="edit-search-block-form--2">Search</label>
+                                          <input title="Enter the terms you wish to search for." ng-non-bindable type="search" id="edit-search-block-form--2" name="search_block_form" value size="15" maxlength="130" class="form-text">
+                                        </div>
+                                        <div class="form-actions form-actions form-wrapper" id="edit-actions">
+                                          <input type="submit" id="edit-submit" name="op" value="search" class="form-submit">
+                                        </div>
+                                        <input type="hidden" name="form_build_id" value="form-UgTbjCwKnuqtYj4Vg6tS8g6BA-Tl8M2_d5oHyr2nKLs">
+                                        <input type="hidden" name="form_id" value="os_solr_search_box__solr_search_box">
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -66,6 +91,8 @@
               </div>
               ::after
             </header>
+            <!--header region ends here-->
+            <!--main menu region beg-->
           </div>
         </div>
     </body>
