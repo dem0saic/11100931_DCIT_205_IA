@@ -93,8 +93,8 @@ header
 .search-box input
 {
     position: absolute;
-    height: 98%;
-    width: 96%;
+    height: 100%;
+    width: 100%;
     border-radius: 25px;
     background: #153d6f;
     outline: none;
@@ -109,5 +109,6 @@ header
     top: 0;
     width: 50px;
     background: white;
-    height: 98%;
+    height: 100%;
+    box-
 }
