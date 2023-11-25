@@ -5,6 +5,9 @@ body
     margin: 0;  
     width: 100%;
     height: auto;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff; 
 }
 *
 {
@@ -178,39 +181,31 @@ header
 {
     font-size: 18px;
     font-family: arial;
+    font-weight: 400;
     color: #153d6f;
     padding: 0 15px;
 
 }
-.menu-bar li:hover
+/*.menu-bar li:hover
 {
     background: #b08b57;
-}
-.menu-bar ul li a:hover
+}*/
+.menu-bar ul li:hover
 {
-    color: white;
+    color:  #d66d00;
     box-shadow: 2px rgba(0, 0, 0, 0.3);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer
+.main-menu ul li:hover {
+    background: #f2f2f2;
+    border-bottom: 5px solid #d66d00;
+    margin-top: 0;
+    font-weight: normal;
+}
+.slider
 {
-    width: 100%;
-    height: 100px;
-    background: #153d6f!important;
+    width: 1180px;
+    height: 455px;
+    margin: 0 15px;
+    padding-top: 20px 0;
+    background: #b08b57;
 }
