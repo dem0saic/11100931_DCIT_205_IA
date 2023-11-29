@@ -292,7 +292,8 @@ video
     text-align: center;
     padding: 2px;
     background-color: #153d6f;
-    border-radius: 25px;
+    border-radius:35px;
+    line-height: 1cm;
     color: #ffffff;
     margin-bottom: 14px ;
 }
@@ -468,7 +469,7 @@ video
 {
     background: #153d6f;
     width: 100%;
-    height: 145px;
+    height: 148px;
     display: flex;
     margin-top: 5px;
 }
@@ -486,7 +487,7 @@ section.footer
     margin: 20px 0 0 0;
     background: white;
     margin: 0 50px;
-    margin-top: 23px;
+    margin-top: 20px;
     box-shadow: 0px 5px #b08b57!important; 
 }
 #ug-logo
@@ -497,16 +498,16 @@ section.footer
 .social-handles
 {
     width: 350px;
-    height: 54px;
+    height: 59px;
     padding-right: 15
     px;
     object-position: center;
-    display: inline-flex;   
+    display: flex;   
 }
 .social-handles .icon
 {
     padding: 0 0 0 8px;
-    width: 84px;
+    width: 80px;
     box-shadow: 0 10px 25px 0 rgb(0, 0, 0.25);
     transition: box-shadow 0.3s;
 }
@@ -516,13 +517,11 @@ section.footer
 }
 .social-handles h5
 {
-    display: inline-block;
+    display:flex;
     padding: 0 0 0 5px;
-    padding: 0 3px;
-}
-.social-handles i
-{
-    padding: 0 5px; 
+    padding: 3px;
+    padding-left: 10px;
+    padding-top: 4px;
 }
 .social-handles .icon:hover a:hover
 {
@@ -531,7 +530,6 @@ section.footer
     margin-top: 0;
     font-weight: normal;
     color: #d66d00;
-    border-radius: 2px;
 }
 .footer hr
 {
@@ -673,6 +671,15 @@ section .faq1
     gap: 10px;
 }
 .faq1 h1
+{
+    text-align: center;
+    margin: 20px 50px;
+    padding: 2px;
+    background-color: #153d6f;
+    border-radius: 25px;
+    color: #ffffff;
+}
+h1
 {
     text-align: center;
     margin: 20px 50px;
