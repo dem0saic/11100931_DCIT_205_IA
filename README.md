@@ -15,6 +15,36 @@ This is the README file for the project "Project Title". It provides an overview
 
 The website presents a collection of ten interconnected pages, each designed to represent distinct facets of University of Ghana's Department of Computer Science. This project serves as a comprehensive showcase of fundamental web development skills, encompassing HTML, CSS, and JavaScript, to create a cohesive and responsive web experience. From academic programs and entry requirements to short courses and events, the website provides a versatile demonstration of building functional and visually appealing web content.
 
+                                SCREENSHOTS OF WEBPAGES
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033544.png>)
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033632.png>)
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033712.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033807.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033844.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033905.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 033934.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 034001.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 034113.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 034143.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 034204.png>) 
+
+![Alt text](<video/Final Project Result/Screenshot 2023-11-29 034318.png>)
+
+                                                VIDEOS OF WEBPAGES
+
+<video src="video/Final Project Result/ug-compsa.mp4" controls title="Title"></video>
+
 ## Installation
 
 To run this website locally,
